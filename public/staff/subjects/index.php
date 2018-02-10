@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<?php require_once('../../../private/initialize.php'); ?>
 
-	<h1>test lorem</h1>
+<?php $page_title = 'Subjects'; ?>
 
-</body>
-</html>
+
+<?php include('../../../private/shared/staff_header.php'); ?>
+<div id="content"></div>
+
+<?php include('../../../private/shared/staff_footer.php'); ?>
+

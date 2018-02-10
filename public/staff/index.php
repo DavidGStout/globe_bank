@@ -1,26 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>GBI</title>
-	<link rel="stylesheet" type="text/css" href="../stylesheets/staff.css">
-</head>
-<body>
+<?php require_once('../../private/initialize.php'); ?>
 
-	<header>
-		<h1>GBI Staff Area</h1>
-	</header>
+<?php $page_title = 'Staff Menu'; ?>
 
-	<navigation>
-		<ul>
-			<li><a href="index.php">Menu</a></li>
-		</ul>
-	</navigation>
 
+	<?php include('../../private/shared/staff_header.php'); ?>
 	<div id="content"></div>
 
-	<footer>
-		&copy; <?php echo date('Y'); ?> Globe Bank
-	</footer>
+	<?php include('../../private/shared/staff_footer.php'); ?>
 
-</body>
-</html>
